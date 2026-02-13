@@ -1,0 +1,7 @@
+py -3.10 -m venv venv
+venv\Scripts\activate
+python --version
+pip install --upgrade pip
+pip install streamlit ultralytics torch torchvision torchaudio opencv-python pillow numpy
+pip install lime scikit-image matplotlib
+streamlit run app.py
